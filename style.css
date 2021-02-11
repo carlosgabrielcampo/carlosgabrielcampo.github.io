@@ -38,7 +38,6 @@ h1, h2{
     width: 50px;
     object-fit: contain;
     
-
 }
 
 #originCity, #originState, #nationality {
@@ -47,11 +46,12 @@ h1, h2{
 
 #my_name{
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: bolder;
     font-size: 34px;
     color: #2b2d42;
     text-decoration: none;
-
+    font-style: oblique;
+    
 }
 
 
