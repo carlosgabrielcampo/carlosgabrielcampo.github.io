@@ -1,0 +1,43 @@
+body{
+    font-family: Roboto;
+    font-weight: 300;
+    background-color: #edf2f4;
+    color: #2b2d42;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin-inline: 40%;
+}
+
+h1, h2{
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+#my_name{
+    font-family: Roboto ;
+    font-weight: 500;
+    font-style: oblique;
+    text-decoration: none;
+    color: #2b2d42;
+}
+
+#originCity, #originState, #nationality {
+    font-weight: 400;
+}
+
+.skills{
+    text-align: left;
+    margin-inline: 40%
+
+
+}
+
+<!--
+Space Cadet 2b2d42
+Manatee":8d99ae
+"Alice Blue":"edf2f4",
+"Imperial Red":"ef233c",
+"Amaranth Red":"d90429" 
+-->
