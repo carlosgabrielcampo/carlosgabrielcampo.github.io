@@ -11,10 +11,9 @@ p{
     max-width: 300px;
 }
 li{
-    text-align: center;
+    text-align: justify;
     margin-inline: auto;
     max-width: 300px;
-
 }
 img{
     width: 300px;
@@ -25,7 +24,7 @@ img{
 
 h1, h2{
     font-family: Open Sans;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .skills{
