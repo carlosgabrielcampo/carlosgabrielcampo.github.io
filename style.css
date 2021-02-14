@@ -1,32 +1,32 @@
-body{
-    
+*{
+    margin: 0;
+    padding: 0;
     font-family: Roboto;
     font-weight: 300;
+}
+
+body{
+    
     background-color: #edf2f4;
     color: #2b2d42;
     text-align: center;
-    min-width: 300px;
 }
-p{
+p li{
     text-align: justify;
     margin-inline: auto;
-    max-width: 300px;
 }
-li{
-    text-align: justify;
-    margin-inline: auto;
-    max-width: 300px;
-}
-img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    
-}
+
 
 h1, h2{
     font-family: Open Sans;
     font-weight: 600;
+}
+
+.header img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
 }
 
 .skills{
@@ -35,10 +35,49 @@ h1, h2{
     max-width: 300px;
 }
 
-.social-networks{
-    width: 50px;
-    object-fit: contain;
+.blogs{
     
+}
+
+
+.links{
+    background-color:  rgb(227, 232, 234);
+    margin: 50px 0px 0px;
+    height: 86px;
+}
+
+.links .social-networks{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    padding: 40px 0px;
+}
+
+#Instagram_logo{
+    left: 18.4rem;
+    right: 10.4rem;
+    position: absolute;
+}
+#GitHub_logo{
+    left: 0.4rem;
+    right: 0.4rem;
+    position: absolute;
+}
+
+#LinkedIn_logo{
+    left: 10.4rem;
+    right: 18.4rem;
+    position: absolute;
+}
+
+#join span{
+    position: absolute;
+    padding: 10px 0px;
+    left: .4rem;
+    right: .4rem;
+    font-size: 1.1 em; 
+    
+
 }
 
 #originCity, #originState, #nationality {
