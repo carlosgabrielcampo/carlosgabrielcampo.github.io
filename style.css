@@ -7,7 +7,6 @@
 }
 
 body{
-    
     background-color: #edf2f4;
     text-align: center;
     width: 100%;
@@ -45,8 +44,19 @@ h1, h2{
     border: solid #edf2f4 3px;
 }
 
-.Hello,#personal_skills, #Portfolio, #blogs{
-    padding: 86px 0px 0px;
+
+
+.Hello{
+    padding: 12rem 0px 0px;
+}
+
+.me{
+    padding: 1rem 0px 0px;
+    width: 300px;
+    text-align: justify;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .skills{
@@ -82,6 +92,7 @@ h1, h2{
 }
 
 #Pct1{
+    padding: 1rem 0px 0px;
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -101,7 +112,14 @@ h1, h2{
 }
 #personal_skills, #Portfolio, #blogs{
     height: 54rem;
+    padding: 86px 0px 0px;
 }
+
+#blogs{
+    height: 48rem;
+
+}
+
 #personal_skills, #blogs{
     background-color: rgb(227, 232, 234);
 }
