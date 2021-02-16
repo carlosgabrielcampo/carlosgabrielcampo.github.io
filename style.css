@@ -9,13 +9,11 @@
 body{
     
     background-color: #edf2f4;
-    color: #2b2d42;
     text-align: center;
     width: 100%;
 }
 p li{
     text-align: justify;
-    margin-inline: auto;
 }
 
 h1, h2{
@@ -28,6 +26,9 @@ h1, h2{
     width: 100%;
     background-color: rgb(227, 232, 234);
     text-transform: uppercase;
+}
+.header a{
+    text-decoration: none;
 }
 
   
@@ -44,18 +45,18 @@ h1, h2{
     border: solid #edf2f4 3px;
 }
 
-.Hello{
+.Hello,#personal_skills, #Portfolio, #blogs{
     padding: 86px 0px 0px;
 }
 
 .skills{
-    text-align: justify;
-    margin-inline: auto;
     max-width: 300px;
+    object-position: center;
+    display: flex;
+    align-self: center;
 }
 
 .bottom{
-    height: 86px;
     padding: 18px 0px 0px;
 }
 .icons{
@@ -69,6 +70,15 @@ h1, h2{
 .bottom .social-networks{
    height: 24px;
    margin: 14px 15px 10px;
+}
+
+#greet_link, #skills_link, #portfolio_link, #blog_link{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 20%;
+    top: 0px;
+    padding: 35px 0px 0px 0px;
 }
 
 #Pct1{
