@@ -45,12 +45,15 @@ h1, h2{
     border: solid #edf2f4 3px;
 }
 
-.Hello{
+.Hello,#personal_skills, #Portfolio, #blogs{
     padding: 86px 0px 0px;
 }
 
 .skills{
     max-width: 300px;
+    object-position: center;
+    display: flex;
+    align-self: center;
 }
 
 .bottom{
@@ -67,6 +70,15 @@ h1, h2{
 .bottom .social-networks{
    height: 24px;
    margin: 14px 15px 10px;
+}
+
+#greet_link, #skills_link, #portfolio_link, #blog_link{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 20%;
+    top: 0px;
+    padding: 35px 0px 0px 0px;
 }
 
 #Pct1{
