@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Roboto;
     font-weight: 300;
+    color: #2b2d42;
 }
 
 body{
@@ -17,29 +18,34 @@ p li{
     margin-inline: auto;
 }
 
-
 h1, h2{
     font-family: Open Sans;
     font-weight: 600;
 }
+
 .header{
     position: fixed;
     width: 100%;
+    background-color: rgb(227, 232, 234);
+    text-transform: uppercase;
 }
 
+  
 .header p{
-    
     display: inline-block;
     border: solid 3px transparent;
     height: 54px;
     width: 20%;
-    margin: 0px;
-    padding: 26px 0px 0px 0px;   
+    padding: 26px 0px 0px;   
 }
 
 .header p:hover{
     background-color: #edf2f4;
     border: solid #edf2f4 3px;
+}
+
+.Hello{
+    padding: 86px 0px 0px;
 }
 
 .skills{
@@ -48,10 +54,6 @@ h1, h2{
     max-width: 300px;
 }
 
-.blogs{
-    background-color: turquoise;
-    height: 51rem;
-}
 .bottom{
     height: 86px;
     padding: 18px 0px 0px;
@@ -61,7 +63,6 @@ h1, h2{
 }
 
 .header, .bottom{
-    background-color:  rgb(227, 232, 234);
     height: 86px;
 }
 
@@ -78,17 +79,22 @@ h1, h2{
 }
 
 #my_name{
-    font-family: Roboto;
     font-weight: bolder;
     font-size: 34px;
-    color: #2b2d42;
     font-style: oblique;
 }
-
+#greetings{
+    height: 59rem;
+}
 #originCity, #originState, #nationality {
     font-weight: 400;
 }
-
+#personal_skills, #Portfolio, #blogs{
+    height: 54rem;
+}
+#personal_skills, #blogs{
+    background-color: rgb(227, 232, 234);
+}
 #join span{
     padding: 10px 0px;
     font-size: 16px
