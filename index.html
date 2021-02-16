@@ -10,43 +10,53 @@
 
 <body>
     <div class="header">
-        <h1>Hello World <br> I'm  <a href="#Pct1" id="my_name">Carlos Campo</a></h1>
-        <img id="Pct1" src="/images/Carlos.webp" alt="A picture of myself sitted">
-            <br>
+        <p><a href="#greetings">About Me</a></p>
+        <p><a href="#personal_skills">Skills</a></p>
+        <p><a href="#Portfolio">Portfolio</a></p>
+        <p> <a href="#personal_skills">Blogs</a> </p>
     </div>
 
-    <div class="me">
-        <h2>About Me</h2>
-        <p> A <span id="nationality">brazilian</span> web development student. <br>
-            At the moment I live in <span id="originCity"> Florianópolis</span>, state of <span id="originState"> Santa Catarina. </span> <br> 
-            I'm 22 years old<br>
-            I describe myself as a result of my choices, and I belive everything that led me to the actual moment, build my character and develop my natural abilities</p>
-            <br>
+    <div id="greetings">
+         <div class="Hello" >
+            <h1>Hello World <br> I'm  <a id="my_name">Carlos Campo</a></h1>
+            <img id="Pct1" src="/images/Carlos.webp" alt="A picture of myself sitted">
+                <br>
+        </div>
+    
+        <div class="me">
+            <h2>About Me</h2>
+            <p> A <span id="nationality">brazilian</span> web development student. <br>
+                At the moment I live in <span id="originCity"> Florianópolis</span>, state of <span id="originState"> Santa Catarina. </span> <br> 
+                I'm 22 years old<br>
+                I describe myself as a result of my choices, and I belive everything that led me to the actual moment, build my character and develop my natural abilities</p>
+                <br>
+        </div>
     </div>
     
-    <div>
+    <div id="personal_skills">
     <h2><ul>Personal Skills</ul></h2>
             <li class="skills">Fluent english communication skills</li>
             <li class="skills"><strong>Self-management</strong></li>
             <li class="skills">Self-taught</li>
     </div>
 
-    <div>
+    <div id="Portfolio">
         <h2><ul>My Projects</ul></h2>
                 <li><em><a target="_blank" href="https://github.com/carlosgabrielcampo/Portfolio">Project 1</a></em></li>
             <br>
     </div>
 
-    <div class="blogs">   
+    <div id="blogs">   
         <h2><ul>Interesting Blogs</ul></h2>    
         <li><a href="https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4542007&q=site:http%3A%2F%2Fwww.thecrazyprogrammer.com%2Ffeed" target="_blank">The Crazy Programmer</a></li>
     </div>
     
 
-    <div class="links">
+    <div class="bottom">
         <div id="join">
             <span>Join my Network</span>
         </div>
+      <div class="icons">
         <div id="LinkedIn_logo">
             <a href="https://www.linkedin.com/in/carlosgcampo/?locale=en_US" target="_blank"><img 
                 src="data:image/png;base64,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" alt="LinkedIn Logo" class="social-networks"> </a>
@@ -59,7 +69,7 @@
             <a href="https://www.instagram.com/carlosgcampo/?hl=pt-br" target="_blank"><img 
                 src="/images/pngwing.com.png" alt="Instagram Logo" class="social-networks"> </a>
         </div>
-    
+      </div> 
         
     </div>
         </body>
