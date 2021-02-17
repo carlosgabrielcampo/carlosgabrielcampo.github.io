@@ -50,6 +50,10 @@ h1, h2{
     padding: 12rem 0px 0px;
 }
 
+#greetings h1:active{
+    color: hsl(219, 86%, 54%);
+}
+
 .me{
     padding: 1rem 0px 0px;
     width: 300px;
