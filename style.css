@@ -80,7 +80,6 @@ li, .me{
 
 .wisdom h2{
     color: #6c838b;
-    margin: 0px 0px 20px;
     font-style: italic;
 }
 
@@ -97,9 +96,9 @@ li, .me{
 }
 
 .soft_skills{
-margin-left: 18%;
-margin-right: 65%;
-min-width: 200px;
+    margin-left: 18%;
+    margin-right: 65%;
+    min-width: 200px;
 
 }
 
@@ -144,8 +143,8 @@ min-width: 200px;
     padding: 35px 0px 0px 0px;
 }
 
-#Pct1, #milestone{
-    padding: 1rem 0px 0px;
+#Pct1, #milestone, #skill_master{
+    padding: 2rem 0px 0px;
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -173,11 +172,7 @@ min-width: 200px;
     position: relative;
 }
 
-#personal_skills h1{
-    margin: 0px 0px 70px;
-}
-
-#personal_skills img{
+#personal_skills li img {
     width: 80px;
 }
 
