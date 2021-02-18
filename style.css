@@ -3,7 +3,7 @@
     padding: 0;
     font-family: Roboto;
     font-weight: 300;
-    color: #2b2d42;
+    color: #202a41;
 }
 
 body{
@@ -58,10 +58,6 @@ h1, h2{
     padding: 12rem 0px 0px;
 }
 
-#greetings h1:active{
-    color: hsl(219, 86%, 54%);
-}
-
 .me{
     padding: 1rem 0px 0px;
     width: 300px;
@@ -78,6 +74,7 @@ h1, h2{
 }
 .wisdom h2{
     font-style: italic;
+    color: #6c838b;
     margin: 0px 0px 20px;
 }
 
