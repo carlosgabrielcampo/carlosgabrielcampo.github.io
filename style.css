@@ -23,7 +23,7 @@ li{
 }
 
 
-h1, h2{
+h1, h2, .goals span{
     font-family: Open Sans;
     font-weight: 600;
 }
@@ -76,6 +76,9 @@ h1, h2{
     font-style: italic;
     color: #6c838b;
     margin: 0px 0px 20px;
+}
+.goals span{
+    color: #c24230;
 }
 
 
