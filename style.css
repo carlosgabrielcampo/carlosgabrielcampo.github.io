@@ -163,9 +163,14 @@ li, .me{
     background-color: rgb(227, 232, 234);
 }
 
-#personal_skills, #Portfolio, #Mission{
+#personal_skills, #Mission{
     height: 54rem;
     padding: 200px 0px 0px;
+}
+#Portfolio{
+    height:40rem;
+    padding: 200px 0px 0px;
+
 }
 
 #personal_skills div{
